@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#304769"
+    android:layout_height="match_parent"
+    tools:context="com.Bimbingan.Dosen.TampilBerita">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/unpam" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:layout_marginBottom="20dp"
+        android:cursorVisible="false"
+        android:background="#fff"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:ems="10"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextJudul"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:background="#fff"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        />
+
+    <EditText
+        android:id="@+id/editTextIsi"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:gravity="start|top"
+        android:hint=""
+        android:background="#fff"
+        android:layout_marginBottom="20dp"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <EditText
+        android:id="@+id/editTextTanggal"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="#fff"
+        android:layout_marginBottom="20dp"
+        android:hint=""
+        />
+    <EditText
+        android:id="@+id/editTextJam"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="#fff"
+        android:layout_marginBottom="20dp"
+        android:hint=""
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/home"
+            android:onClick="tampil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="#f05924"
+            android:text="home"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

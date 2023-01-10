@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#304769"
+    android:layout_height="match_parent"
+    tools:context="com.Bimbingan.Dosen.Berita">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/unpam" />
+
+    <EditText
+        android:id="@+id/editTextnip"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="NIP"
+        android:background="#fff"
+        android:inputType="textPersonName"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editTextJudul"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul"
+        android:inputType="textPersonName"
+        android:background="#fff"
+        />
+
+    <EditText
+        android:id="@+id/editTextIsi"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:gravity="start|top"
+        android:hint="ISI"
+        android:background="#fff"
+        android:layout_marginBottom="20dp"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginRight="20dp"
+            android:id="@+id/Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:background="#f05924"
+
+            />
+
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="#f05924"
+            android:text="home"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>
